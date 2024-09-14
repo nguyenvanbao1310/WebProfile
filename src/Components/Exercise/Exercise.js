@@ -41,7 +41,7 @@ const Exercise = () => {
       description: "Modify the servlet for the Email and Create a new servlet",
       image: tuan5,
       linkgit: "https://github.com/nguyenvanbao1310/Lap-Web/tree/week5",
-      linkweb: "https://basicweb-5t6l.onrender.com/",
+      linkweb: "https://nguyenvanbao1.onrender.com/",
     },
   ]);
   const handleNextClick = () => {
