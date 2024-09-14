@@ -5,7 +5,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
+  background-color: #E1FFE2;
 }
 
 @media (min-width: 1400px) {
@@ -20,6 +20,7 @@ body {
 }
 
 .app-container {
+  background-color: #e1ffe2;
   .header-container {
     .navbar {
       z-index: 10;

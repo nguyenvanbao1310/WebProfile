@@ -12,24 +12,20 @@ const Exercise = () => {
     {
       id: 1,
       title: "EXERCISE 1 (Week1)",
-      description: "Welcome to summer",
+      description: "An introduction to web programming with Java",
       image: tuan1,
     },
     {
       id: 2,
       title: "EXERCISE 2 (Week2)",
-      description: "Welcome to summer",
+      description: "Model-View-Controller design pattern in web app",
       image: tuan2,
-      linkgit: "https://github.com/nguyenvanbao1310/Lap-Web/tree/master",
-      linkweb: "https://basicweb-5t6l.onrender.com/",
     },
     {
       id: 3,
       title: "EXERCISE 3 (Week3)",
-      description: "Welcome to summer",
+      description: "How to work with Netbean IDE and Tomcat server",
       image: tuan3,
-      linkgit: "https://github.com/nguyenvanbao1310/Lap-Web/tree/master",
-      linkweb: "https://basicweb-5t6l.onrender.com/",
     },
     {
       id: 4,
@@ -76,7 +72,8 @@ const Exercise = () => {
                 <b>{item.description}</b>
               </div>
               <span>github: </span>
-              <a href={item.linkgit}>{item.linkgit}</a><br/>
+              <a href={item.linkgit}>{item.linkgit}</a>
+              <br />
               <span>linkweb: </span>
               <a href={item.linkweb}>{item.linkweb}</a>
               <br />

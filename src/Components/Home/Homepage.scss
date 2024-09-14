@@ -23,11 +23,11 @@
     }
 
     .list {
-      margin-top: 50px;
+      
       display: grid;
-      grid-template-columns: repeat(auto-fill, 300px);
+      grid-template-columns: repeat(auto-fill, 260px);
       justify-content: space-between;
-      gap: 3vw;
+      gap: 1vw;
       position: relative;
       &::before {
         position: absolute;
