@@ -11,7 +11,7 @@ const Exercise = () => {
   const [listItems, setListItems] = useState([
     {
       id: 1,
-      title: "EXERCISE 1 (Week4)",
+      title: "EXERCISE 1 (Week3)",
       description: "A web page for a survey_Syntax: W4_StudentID",
       image: tuan1,
       linkgit: "https://github.com/nguyenvanbao1310/Lap-Web/tree/master",
@@ -19,7 +19,7 @@ const Exercise = () => {
     },
     {
       id: 2,
-      title: "EXERCISE 2 (Week5)",
+      title: "EXERCISE 2 (Week4)",
       description: "Modify the servlet for the Email and Create a new servlet",
       image: tuan2,
       linkgit: "https://github.com/nguyenvanbao1310/Lap-Web/tree/week5",
@@ -27,7 +27,7 @@ const Exercise = () => {
     },
     {
       id: 3,
-      title: "EXERCISE 3.1 (Week6)",
+      title: "EXERCISE 3.1 (Week5)",
       description: "Modify the JSPs for the Email List application",
       image: tuan3,
       linkgit:
@@ -36,7 +36,7 @@ const Exercise = () => {
     },
     {
       id: 4,
-      title: "EXERCISE 3.2 (Week6)",
+      title: "EXERCISE 3.2 (Week5)",
       description: "Create a new JSP",
       image: tuan4,
       linkgit:
