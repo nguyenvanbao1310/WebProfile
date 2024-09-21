@@ -24,7 +24,6 @@ const Exercise = () => {
       image: tuan2,
       linkgit: "https://github.com/nguyenvanbao1310/Lap-Web/tree/week5",
       linkweb: "https://vanbao1310.onrender.com/",
-<<<<<<< HEAD
     },
     {
       id: 3,
@@ -51,8 +50,6 @@ const Exercise = () => {
       image: tuan5,
       linkgit: "",
       linkweb: "",
-=======
->>>>>>> b48222442af08c9474a15008afd3a9ddce9d46fc
     },
   ]);
   const handleNextClick = () => {
