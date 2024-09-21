@@ -14,7 +14,7 @@ const Homepage = () => {
   const [listSkills] = useState([
     {
       name: "HTML",
-      des: "Eu voluptate sit do labore consectetur in ad esse qui laborum ad eiusmod. Esse ea velit culpa exercitation anim enim reprehenderit. Fugiat nostrud non dolore aliquip quis in ea amet duis.",
+      des: "Hiểu cấu trúc cơ bản của một trang web.Xây dựng và tổ chức các nội dung như văn bản, hình ảnh, bảng biểu, liên kết, biểu mẫu.",
       icon: faHtml5,
     },
     {

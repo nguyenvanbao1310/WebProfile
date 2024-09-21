@@ -11,37 +11,45 @@ const Exercise = () => {
   const [listItems, setListItems] = useState([
     {
       id: 1,
-      title: "EXERCISE 1 (Week1)",
-      description: "An introduction to web programming with Java",
-      image: tuan1,
-    },
-    {
-      id: 2,
-      title: "EXERCISE 2 (Week2)",
-      description: "Model-View-Controller design pattern in web app",
-      image: tuan2,
-    },
-    {
-      id: 3,
-      title: "EXERCISE 3 (Week3)",
-      description: "How to work with Netbean IDE and Tomcat server",
-      image: tuan3,
-    },
-    {
-      id: 4,
-      title: "EXERCISE 4 (Week4)",
+      title: "EXERCISE 1 (Week4)",
       description: "A web page for a survey_Syntax: W4_StudentID",
-      image: tuan4,
+      image: tuan1,
       linkgit: "https://github.com/nguyenvanbao1310/Lap-Web/tree/master",
       linkweb: "https://basicweb-5t6l.onrender.com/",
     },
     {
-      id: 5,
-      title: "EXERCISE 5 (Week5)",
+      id: 2,
+      title: "EXERCISE 2 (Week5)",
       description: "Modify the servlet for the Email and Create a new servlet",
-      image: tuan5,
+      image: tuan2,
       linkgit: "https://github.com/nguyenvanbao1310/Lap-Web/tree/week5",
-      linkweb: "https://nguyenvanbao1.onrender.com/",
+      linkweb: "https://vanbao1310.onrender.com/",
+    },
+    {
+      id: 3,
+      title: "EXERCISE 3.1 (Week6)",
+      description: "Modify the JSPs for the Email List application",
+      image: tuan3,
+      linkgit:
+        "https://github.com/nguyenvanbao1310/BaiTapLTWeb/tree/master/ch06_ex1_email",
+      linkweb: "https://labch06ex1.onrender.com",
+    },
+    {
+      id: 4,
+      title: "EXERCISE 3.2 (Week6)",
+      description: "Create a new JSP",
+      image: tuan4,
+      linkgit:
+        "https://github.com/nguyenvanbao1310/BaiTapLTWeb/tree/master/ch06_ex2_survey",
+      linkweb: "https://labch06ex2.onrender.com",
+    },
+    {
+      id: 5,
+      title: "EXERCISE 5 ",
+      description: "Updating...",
+      image: tuan5,
+      linkgit: "",
+      linkweb: "",
     },
   ]);
   const handleNextClick = () => {
