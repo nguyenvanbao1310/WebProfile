@@ -48,14 +48,9 @@ const Exercise = () => {
       title: "EXERCISE 4 (Week6)   ",
       description: "Cart",
       image: tuan5,
-<<<<<<< HEAD
       linkgit:
         "https://github.com/nguyenvanbao1310/BaiTapLTWeb/tree/master/ch07",
       linkweb: "https://ch07-cart.onrender.com",
-=======
-      linkgit: "",
-      linkweb: "",
->>>>>>> 8c715441252c7e16e0161243ed18c50557665a79
     },
   ]);
   const handleNextClick = () => {
