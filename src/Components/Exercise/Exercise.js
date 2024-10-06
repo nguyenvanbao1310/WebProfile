@@ -51,6 +51,7 @@ const Exercise = () => {
       linkgit:
         "https://github.com/nguyenvanbao1310/BaiTapLTWeb/tree/master/ch07",
       linkweb: "https://ch07-cart.onrender.com",
+<<<<<<< HEAD
     },
     {
       id: 6,
@@ -60,6 +61,8 @@ const Exercise = () => {
       linkgit:
         "https://github.com/nguyenvanbao1310/BaiTapLTWeb/tree/master/ch12",
       linkweb: "https://ch12-v27l.onrender.com",
+=======
+>>>>>>> 54b7304b37e81ecf3b12c8a28c3df9cbd551121b
     },
   ]);
   const handleNextClick = () => {
