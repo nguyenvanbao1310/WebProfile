@@ -60,6 +60,7 @@ const Exercise = () => {
       linkgit:
         "https://github.com/nguyenvanbao1310/BaiTapLTWeb/tree/master/ch12",
       linkweb: "https://ch12-v27l.onrender.com",
+<<<<<<< HEAD
     },
 
     {
@@ -70,6 +71,8 @@ const Exercise = () => {
       linkgit:
         "https://github.com/nguyenvanbao1310/BaiTapLTWeb/tree/master/poolconnections",
       linkweb: "https://ch12-poolconnection.onrender.com",
+=======
+>>>>>>> a34f72b9c5856a4dd59f68f2d9733c7be28f0e05
     },
   ]);
   const handleNextClick = () => {
