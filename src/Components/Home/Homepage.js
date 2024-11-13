@@ -14,7 +14,7 @@ const Homepage = () => {
   const [listSkills] = useState([
     {
       name: "HTML",
-      des: "Hiểu cấu trúc cơ bản của một trang web.Xây dựng và tổ chức các nội dung như văn bản, hình ảnh, bảng biểu, liên kết, biểu mẫu.",
+      des: "Understand the basic structure of a web page. Build and organize content such as text, images, tables, links, forms.",
       icon: faHtml5,
     },
     {

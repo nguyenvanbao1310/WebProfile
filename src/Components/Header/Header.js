@@ -29,6 +29,9 @@ const Header = () => {
             <NavLink to="Exercise" className="nav-link">
               Exercise
             </NavLink>
+            <NavLink to="Profile" className="nav-link">
+              Profile
+            </NavLink>
             <div className="dropdown">
               <button className="dropbtn">
                 <span className="dropdown-text">Contact</span>
@@ -58,12 +61,6 @@ const Header = () => {
                   >
                     Facebook
                   </span>
-                </li>
-                <li className="option">
-                  <i
-                    className="fa-brands fa-google option-icon"
-                    style={{ color: "#ea4335" }} // Màu sắc của Gmail
-                  ></i>
                 </li>
               </ul>
             </div>

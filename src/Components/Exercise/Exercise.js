@@ -6,7 +6,6 @@ import tuan5 from "../../asset/tuan5.jpg";
 import "./Exercise.scss";
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
 import React, { useState } from "react";
-import "./Exercise.scss";
 const Exercise = () => {
   const [listItems, setListItems] = useState([
     {

@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Homepage from "./Components/Home/Homepage";
+import Profile from "./Components/Profile/Profile";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +16,7 @@ root.render(
         <Route path="/" element={<App />}>
           <Route index element={<Homepage />} />
           <Route path="Exercise" element={<Exercise />} />
+          <Route path="Profile" element={<Profile />} />
         </Route>
       </Routes>
     </React.StrictMode>
