@@ -88,6 +88,14 @@ const Exercise = () => {
         "https://github.com/nguyenvanbao1310/BaiTapLTWeb/tree/master/ch14_ex1_email",
       linkweb: "https://ch14-oayr.onrender.com",
     },
+    {
+      id: 10,
+      title: "EXERCISE 9 (Week14)",
+      description: "Lab",
+      image: tuan5,
+      linkgit: "https://github.com/nguyenvanbao1310/week5/tree/Tonghop",
+      linkweb: "https://tonghop.onrender.com",
+    },
   ]);
   const handleNextClick = () => {
     const updatedItems = [...listItems.slice(1), listItems[0]];
